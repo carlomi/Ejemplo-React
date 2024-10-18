@@ -1,0 +1,40 @@
+.task-card{
+    width: 80%;
+    background-color: var(--task-color-primary);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 2rem;
+    transition: all .2s;
+}
+
+.task-card:hover {
+    transform: scale(1.05)
+}
+
+.text {
+    text-align: start;
+    color: wheat;
+}
+
+.completed-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.textCompleted {
+    text-decoration: line-through;
+    text-align: start;
+    color: rgb(34, 194, 50);
+}
